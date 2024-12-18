@@ -5,7 +5,7 @@ Unified interface C++ library to talk to pins regardless if they are native or b
 ```cpp
 // MCP23017
 #include <mcp23x17_pin.hpp>
-Adafruit_MCP23X17 mcp;
+MCP23017 mcp;
 
 MCP23X17_Pin EPD_DC = MCP23X17_Pin(mcp, 7); 
 
