@@ -13,6 +13,6 @@ public:
     void digitalWrite(uint8_t value);
 
 protected:
-    Adafruit_MCP23XXX& mcp;
+    MCP23017& mcp;
 };
 
